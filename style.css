@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color:aliceblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    background-color: rgba(181, 57, 57, 0.853);
+}
+.flexbox{
+    margin-left: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    width: 250px;
+}
+.nav-btn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(191, 186, 186, 0.495);
+    height: 650px;
+}
+.para{
+    margin:40px 30px 30px 100px;
+}
+.h1{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 20px;
+   text-align: justify;
+}
+
+.image1{
+    margin:150px 150px 30px 10px;
+}
+img[alt="phone"]{
+    height: 400px;
+    width: 450px;
+}
+
+.gallery{
+    margin:60px 220px;
+    width:70%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gallery-head{
+    text-align: center;
+    /* margin-top: 30px; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-row1{
+    display: flex;
+    justify-content: space-between;
+}
+.img-row2{
+    display: flex;
+    justify-content: space-between;
+}
+img[alt="landscape"]{
+    width: 330px;
+    height: 200px;
+}
+
+.footer{
+    background-color: rgba(191, 186, 186, 0.495);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aircampus{
+    margin-left: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.contacts{
+    margin-right: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left: 5px;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#icons{
+    font-size: 20px;
+    margin-left: 30px;
+}
